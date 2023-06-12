@@ -94,11 +94,21 @@ function closeFullscreen() {
              });
              </script>
 
+<script>
+  function pageRedirect() {
+      $("#content").css("display","block")
+}
 
+</script>
+<style>
+  #content{
+      height: 1000px;
+      display: none;
+  }
+</style>
 
 </head>
-
-<body id="mycanvas" onclick="playSound()" >
+<body id="mycanvas" onclick="pageRedirect()" class="map" onbeforeunload="return myFunction()" style="height: 1000px; background-image:url(s1.png); background-repeat: no-repeat; background-size:contain;">
 <div id="map1">
 
   <audio id="beep1" autoplay="">
